@@ -42,10 +42,23 @@ a:hover {
 }
 
 
+/* NAV */
+nav{
+    background: -webkit-linear-gradient(left, #c9daf9, #ffefff);
+}
+
+nav .navbar-brand{
+    font-family: 'Oswald', sans-serif;    
+}
+
+.nav-link{
+    font-weight: bold;
+}
+
 
 /* PROFILE */
 .profile {
-    padding: 50px;
+    padding: 20px;
     width: 100%;
     display: flex;
     flex-direction: row;
@@ -164,6 +177,28 @@ a:hover {
 }
 
 
+/* EXPERIENCE */
+.experience .exp {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 5px;
+}
+
+.experience .exp .role {
+    font-weight: bold;
+}
+
+.experience .exp .date {
+    font-style: italic;
+}
+
+.experience .exp .role i,
+.experience .exp .company i,
+.experience .exp .date i {
+    margin-right: 5px;
+}
+  
 
 /* PROJECTS */
 .projects {
@@ -193,11 +228,13 @@ a:hover {
     background-repeat: no-repeat !important;
     cursor: pointer;
 }
-  
+
+  /*gallary  */
 .projects .project-section .content .top {
     height: 180px;
     width: 100%;
     padding: 10px;
+    background: url("../assets/img/home.png");
     background-size: cover !important;
     background-position: center !important;
     background-repeat: no-repeat !important;
@@ -205,11 +242,12 @@ a:hover {
     border-radius: 5px 5px 0 0;
 }
   
-.projects .project-section .content .second {
+/* awards */
+.projects .project-section .content .second-project {
     height: 180px;
     width: 100%;
     padding: 10px;
-    background: url("assets/bs.png");
+    background: url("../assets/img/home2.png");
     background-size: cover !important;
     background-position: center !important;
     background-repeat: no-repeat !important;
@@ -217,11 +255,51 @@ a:hover {
     border-radius: 5px 5px 0 0;
 }
   
-.projects .project-section .content .third {
+/* jirani */
+.projects .project-section .content .third-project {
     height: 180px;
     width: 100%;
     padding: 10px;
-    background: url("assets/pics.png");
+    background: url("../assets/img/hom.png");
+    background-size: cover !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    cursor: pointer;
+    border-radius: 5px 5px 0 0;
+}
+
+   /* 4th project */
+.projects .project-section .content .fourth-project {
+    height: 180px;
+    width: 100%;
+    padding: 10px;
+    background: url("../assets/img/quote.png");
+    background-size: cover !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    cursor: pointer;
+    border-radius: 5px 5px 0 0;
+}
+
+      /* 5th project */
+.projects .project-section .content .fiveth-project {
+    height: 180px;
+    width: 100%;
+    padding: 10px;
+    background: url("../assets/img/pizza.png");
+    background-size: cover !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    cursor: pointer;
+    border-radius: 5px 5px 0 0;
+}
+
+  /* blog 6 project*/
+.projects .project-section .content .sixth-project {
+    height: 180px;
+    width: 100%;
+    padding: 10px;
+    background: url("../assets/img/002.png");
     background-size: cover !important;
     background-position: center !important;
     background-repeat: no-repeat !important;

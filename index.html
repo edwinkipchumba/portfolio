@@ -1,118 +1,140 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
-
     <!-- fonts -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital@0&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital@0&display=swap" rel="stylesheet">
+    <!-- frameworks -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@master/devicon.min.css">
+    
+    <link rel="stylesheet" href="css/style.css">
 
-    <!-- frames -->
-
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-uWxY/CJNBR+1zjPWmfnSnVxwRheevXITnMqoEIeG1LJrdI0GlVs/9cVSyPYXdcSF" crossorigin="anonymous">   
-<!-- JavaScript Bundle with Popper -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-kQtW33rZJAHjgefvhyyzcGF3C5TFyBQBA13V1RKPf4uH+bwyzQxZ6CmMZHmNBEfJ" crossorigin="anonymous"></script>
-
-<link rel="stylesheet" href="styles.css" type="text/css">
-
-<script src="https://use.fontawesome.com/af96edf531.js"></script>
-
+    <script src="https://use.fontawesome.com/af96edf531.js"></script>
 </head>
+
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-info fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
         <a class="navbar-brand" href="/">
             &lt;/&gt;
             Kolem Edwin
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-
-          <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-            <ul class="navbar-nav ms-auto mt-2 mt-lg-0">
-              <li class="nav-item">
-                  <a class="nav-link" href="#profile">
-                    <i class="fa fa-home"></i>About
-                  </a>
-              </li>
-              <li class="nav-item">
-                  <a class="nav-link" href="#education" >
-                      <i class="fa fa-graduation-cap"></i>Education
-                  </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#projects">
-                  <i class="fa fa-briefcase"></i>Projects
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+          <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+            <li class="nav-item">
+                <a class="nav-link" href="#profile">
+                  <i class="fa fa-home"></i>About
                 </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="https://dev.to/edwinkipchumba" target="_blank">
-                  <i class="fa fa-laptop"></i>Blog
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#education" >
+                    <i class="fa fa-graduation-cap"></i>Education
                 </a>
-              </li>
-            </ul>
-          </div>
-      </nav>
-    <!-- end of nav -->
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#projects">
+                <i class="fa fa-briefcase"></i>Projects
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://dev.to/edwinkipchumba" target="_blank">
+                <i class="fa fa-laptop"></i>Blog
+              </a>
+            </li>
+          </ul>
+        </div>
+    </nav>
 
-    <div class="container">
+    <main class="container">
         <div class="profile" id="profile">
-            <img src="assets/avatar1.jpg" alt="home pic">
+
+            <div class="row">
+                <div class="col-sm-6 p-4">
+                  <div class="card">
+                    <div class="card-body">
+                        <img src="assets/img/image_edu.jpg" alt="" height="300">
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-6">
+                  <div class="card">
+                    <div class="card-body">
+                      <p><b>Name:</b> Kolem K. Edwin</p>
+                      <p><b>Profile:</b> Full Stack Developer</p>
+                      <p><b>Email:</b> edwinkolem5@gmail.com</p>
+                      <p><b>Contact:</b> +254728357619</p>
+                      
+                     
+                    </div>
+                  </div>
+                </div>
+
+               
+
+              </div>
+            
             <div class="bio-text">
                 <h2>About Me</h2><span></span>
-                <h5>Software Engineer | Builidng with Python</h5>
+                <h5>Software Engineer | Building with Python</h5>
                 <p> I am passionate about developer communities and have a keen interest in improving
                     the lives of others through software. I am also a creative problem-solver with an inquisitive mind
                     that thrives in a challenging environment and enjoys working with structure.</p>
 
                 <div class="social-media">
-                    <i class="fa fa-github" aria-hidden="true"><a href="https://github.com/edwinkipchumba" target="_blank" rel="noopener">GitHub</a></i>
+                    <i class="fa fa-github" aria-hidden="true"><a href="https://github.com/edwinkipchumba" target="_blank"
+                            rel="noopener">GitHub</a></i>
                     <i class="fa fa-download" aria-hidden="true"><a
-                        href="assets/doc/Kolem Edwin Resume.pdf" target="_blank"
-                        rel="noopener">Resume</a></i>
-                <i class="fa fa-envelope" aria-hidden="true"><a href="mailto:edwinkolem5@gmail.com" target="_blank"
-                        rel="noopener">Email Me</a></i>
+                            href="assets/doc/Karen Ngala Resume.pdf" target="_blank"
+                            rel="noopener">Resume</a></i>
+                    <i class="fa fa-envelope" aria-hidden="true"><a href="mailto:edwinkolem5@gmail.com" target="_blank"
+                            rel="noopener">Email Me</a></i>
                 </div>
-
             </div>
         </div>
-        <br>
-        <br>
 
 
         <!-- stack -->
-        <div class="tech-stack" id="tech-stack">
+        <div class="tech-stack" id="tech-stack">    
             <h2>Technical Skills</h2><span></span>
 
             <div class="stack-imgs">
-                <img src="assets/django.png" alt="">
-                <img src="assets/flask-python.png" alt="">
-                <img src="assets/angular.jpeg" alt="angular" width="100">
-                <img src="assets/javascript.png" alt="">
-                <img src="assets/linux.png" alt="">
-                <img src="assets/python.png" alt="">
-                <img src="assets/postgreesql.png" alt="">
-                <img src="assets/css3.png" alt="">
-                <img src="assets/html-5.png" alt="">
-                <img src="assets/linux.png" alt="">
-            </div>  
+                <img src="https://www.designmantic.com/images/images3/HTML5LOGOMaker-Icon-Sample.gif" alt="html5">
+                <img src="data:image/png;base64,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" alt="css3">
+                <img src="https://www.aalpha.net/wp-content/uploads/2021/07/angularjs.gif" alt="mysql">
+                <img src="data:image/jpeg;base64,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" alt="js">
+                <img src="https://i.gifer.com/T148.gif" alt="python">
+                <img src="https://raw.githubusercontent.com/gist/rkmsh/ce52f115bd1be2fe71a34160a4af7044/raw/03fc41c728e2d600418e2a39378bd84a9af2ed51/Django-WebApp.gif" alt="python-django">
+                <img src="https://www.pistalix.in/wp-content/uploads/2018/11/flask.gif" alt="python-flask">
+               
+                <img src="data:image/png;base64,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" alt="mysql">
+                <img src="https://blog.desdelinux.net/wp-content/uploads/2017/05/crear-gif-de-im%C3%A1genes.gif" alt="linux">
+                <img src="https://cdn.dribbble.com/users/2442115/screenshots/8699490/dec-01-2019_19-16-16.gif" alt="reactjs">
+                
+            </div>
         </div>
 
-        <!-- education background -->
+
+        <!-- education -->
         <div class="education" id="education">
             <h2>Education</h2><span></span>
             <div class="edu">
                 <span class="course"><i class="fa fa-book" aria-hidden="true"></i>
-                    Full-stack web specialization</span><br>
+                    Full-stack web developer</span>
                 <span class="school"><i class="fa fa-graduation-cap" aria-hidden="true"></i>
-                    Moringa School, Ngong-RD</span><br>
+                    Moringa School, Ngong Road</span>
                 <span class="date"><i class="fa fa-clock-o" aria-hidden="true"></i>
-                    May 2021 - Dec 2021</span>
+                    May 2021 - November 2021</span>
                 <p class="description">My time at Moringa School taught me the value of good 
                     teamwork, networking, coding best practices and most importantly,<br>
                     self-management and adaptability. </p>
@@ -120,11 +142,11 @@
 
             <div class="edu">
                 <span class="course"><i class="fa fa-book" aria-hidden="true"></i>
-                    BSc. Computer Science</span><br>
+                    Diploma in ICT</span>
                 <span class="school"><i class="fa fa-graduation-cap" aria-hidden="true"></i>
-                    Moi University, Eldoret</span><br>
+                    Rift Valley Technical Training Institute (RVTTI), Eldoret</span>
                 <span class="date"><i class="fa fa-clock-o" aria-hidden="true"></i>
-                    2016 - 2019</span><br>
+                    January 2014 - November 2016</span>
                 <p class="description">Apart from academics, I am involved in various activities including 
                     give-back community programs and problem-solving communities <br> that seek to solve real-world 
                     problems with user-centered solutions.</p>
@@ -132,15 +154,36 @@
     
             <div class="edu">
                 <span class="course"><i class="fa fa-book" aria-hidden="true"></i>
-                    Kenya Certificate of Secondary Education, K.C.S.E.</span><br>
+                    Kenya Certificate of Secondary Education, K.C.S.E.</span>
                 <span class="school"><i class="fa fa-graduation-cap" aria-hidden="true"></i>
-                    Weiwei High School</span><br>
+                    st.Paul Weiwei High School, West pokot</span>
                 <span class="date"><i class="fa fa-clock-o" aria-hidden="true"></i>
-                    Jan 2008 - Nov 2011</span><br>
+                    Jan 2008 - Nov 2011</span>
                 <p class="description">My four years in high school solidified my foundation in computing, 
                     introducing me to the basic, but core, concepts <br> of any programming language.</p>
             </div>
         </div>
+
+
+        <!-- experience -->
+        <div class="experience" id="experience">
+            <h2>Experience</h2><span></span>
+    
+            <div class="exp">
+                <span class="role"><i class="fa fa-laptop" aria-hidden="true"></i>
+                    Software developer</span>
+                <span class="company"><i class="fa fa-building-o" aria-hidden="true"></i>
+                    Tradity Capital, Kenya</span>
+                <span class="date"><i class="fa fa-clock-o" aria-hidden="true"></i>
+                    Nov 2020 - PRESENT</span>
+                <p class="description">
+                    Building a trading platform used by both experienced traders (signal providers) and inexperienced
+                    traders <br> to send and receive expert trading signals, respectively. <br>
+                    The platform is built on Flask python, HTML and CSS
+                </p>
+            </div>
+        </div>
+
 
         <!-- projects -->
         <div class="projects" id="projects">
@@ -150,53 +193,84 @@
                     <div class="top background">
                     </div>
                     <div class="footer">
-                        <h3>Blog-website</h3>
-                        <p>A personal blogging website where you can create and share your opinions and other users can read and comment on them.</p>
+                        <h3>Gallary</h3>
+                        <p>This is a web application that allows users to view photos stored in galleries by location.
+                         The admin is responsible for uploading, editing, and deleting photos.
+                         <br> Built on <b>Javascript</b>, <b>Python-django,bootstrap, HTML & CSS</b>.</p>
+                        <a href="https://pics--gallery.herokuapp.com/" target="_blank" rel="noopener">Check it out</a>
+                    </div>
+                </div>
+
+                <div class="content">
+                    <div class="second-project background">
+                    </div>
+                    <div class="footer">
+                        <h3>Awwards app</h3>
+                        <p>This is an application like Awwards where users can signup, log in and post a project to be reviewed and rated. 
+                            Built on <b>Python-django</b>, <b>rest_framework</b> and <b>Heroku</b>.</p>
+                        <a href="https://awwards01-app.herokuapp.com/" target="_blank" rel="noopener">Check it out</a>
+                    </div>
+                </div>
+
+                <div class="content">
+                    <div class="third-project background">
+                    </div>
+                    <div class="footer">
+                        <h3>Jirani Watch</h3>
+                        <p>This is an application that allows users in the estate to interact with other neighbours. 
+                            Users can create posts detail what is going on within the neighbourhood and also create posts that detail 
+                            businesses located in the estate and also find contacts for the local police authorities and health centres.
+                            Built on <br> <b>Heroku</b>,<b>bootstrap</b>,<b>Django</b> and <b>Postgresql</b>.</p>
+                        <a href="https://jirani02-app.herokuapp.com/" target="_blank" rel="noopener">Check it out</a>
+                    </div>
+                </div>
+
+                <div class="content">
+                    <div class="fourth-project background">
+                    </div>
+                    <div class="footer">
+                        <h3>Quotes application</h3>
+                        <p>An Angular application app that allows the user to downvote, upvote, see votes and add quotes.
+                            Built on <br> <b>Angular</b>.</p>
+                        <a href="https://edwinkipchumba.github.io/Quotes-App/" target="_blank" rel="noopener">Check it out</a>
+                    </div>
+                </div>
+
+                <div class="content">
+                    <div class="fiveth-project background">
+                    </div>
+                    <div class="footer">
+                        <h3>Pizza App</h3>
+                        <p>This is a web application where a user can make an order by selecting the type of flavor, size, crust and toppings
+                            Built on <br> <b>Javascript</b>,<b>bootstrap</b>,<b>jQuery</b> and <b>HTML5,CSS3</b>.</p>
+                        <a href="https://edwinkipchumba.github.io/Pizza-Hub/" target="_blank" rel="noopener">Check it out</a>
+                    </div>
+                </div>
+
+                <div class="content">
+                    <div class="sixth-project background">
+                    </div>
+                    <div class="footer">
+                        <h3>Blog website</h3>
+                        <p>This is a personal blogging website where you can create and share your opinions and other users can read and comment on them.
+                            Built on <br> <b>Heroku</b>,<b>bootstrap</b>,<b>python3</b>,<b>flask</b> and <b>Postgresql</b>.</p>
                         <a href="https://w2-blog.herokuapp.com/" target="_blank" rel="noopener">Check it out</a>
-                    </div>
-                </div>
-
-                <div class="content">
-                    <div class="second background">
-                    </div>
-                    <div class="footer">
-                        <h3>News-app</h3>
-                        <p>A flask application app that lists and 
-                        previews news articles from various sources using the News API. 
-                        Built on <b>Flask</b> and <b>Heroku</b>.</p>
-                        <a href="https://newssap.herokuapp.com/" target="_blank" rel="noopener">Check it out</a>
-                    </div>
-                </div>
-
-                <div class="content">
-                    <div class="third background">
-                    </div>
-                    <div class="footer">
-                        <h3>Pitch</h3>
-                        <p>An application that allows users to use that one minute wisely.
-                         The users will submit their one-minute pitches and other users will
-                         vote on them and leave comments to give their feedback on them. 
-                         Built on <b>Heroku</b>and <b>Postgres</b>.</p>
-                        <a href="https://pitcheup02.herokuapp.com/" target="_blank" rel="noopener">Check it out</a>
                     </div>
                 </div>
 
             </div>
         </div>
     </main>
-</div>
 
-    <!-- footer -->
-
-    <footer class="footer text-center bg-dark text-light p-4">
-        <sup>&copy;2021 copyright Kolem Edwin</sup>
+    <footer class="footer text-center bg-dark text-light">
+        <sup>&copy;2021 All right, wrongs and in betweens reserved</sup>
     </footer>
 
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.min.js" integrity="sha384-PsUw7Xwds7x08Ew3exXhqzbhuEYmA2xnwc8BuD6SEr+UmEHlX8/MCltYEodzWA4u" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
     <script src="js/script.js"></script>
-    
 </body>
+
 </html>
